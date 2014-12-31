@@ -1,0 +1,37 @@
+<koken:include file="layouts/header.html" />
+<!-- This is the asset file you have to add to your custom lens -->
+<koken:asset file="contact/contact.js" />
+<div id="content">
+  <article>
+  <header><h1>Contact</h1></header>
+	<p>You can contact us at</p>
+	<p>Phone: (720)255-4244</p>
+	<p>Email: shane@shanemiltonphotography.com</p>
+	<p><h2>Or fill out the form below</h2></p>
+    <form id="ajax-contact-form" action="javascript:alert('success!');" role="form" class="form-horizontal">
+      <fieldset>
+        <div id="fields">
+          <div>
+            <label for="name" class="contact_label"></label>
+            <input id="name" type="text" name="name" required value="" placeholder="Name" />
+          </div>
+          <div>
+            <label for="email" class="contact_label"></label>
+            <input id="email" type="email" name="email" required value="" placeholder="youremail@email.com" />
+          </div>
+          <div>
+            <label for="subject" class="contact_label"></label>
+            <input id="subject" type="text" name="subject" required value="" placeholder="Subject" />
+          </div>
+          <div>
+            <label for="message" class="contact_label"></label>
+            <textarea id="message" name="message" required rows="10" cols="30" placeholder="Your Message" ></textarea>
+          </div>
+          <input type="submit" value="Send" />
+        </div>
+        <div id="note"></div>
+      </fieldset>
+    </form>
+  </article>
+</div>
+<koken:include file="layouts/footer.html" />
