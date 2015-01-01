@@ -4,7 +4,7 @@ var str = $(this).serialize();
 $.ajax({
   type: "POST",
   // Add you're own url file path to the contact.php here!!
-  url: "http://www.shanemiltonphotography.com/koken/storage/themes/axis-86d2f683-9f90-ca3f-d93f-a2e0a9d0a089/contact/contact.php",
+  url: "http://www.domaine.com/koken/storage/themes/exact_name_of_theme/contact/contact.php",
   data: str,
   success: function(msg){
     $("#note").ajaxComplete(function(event, request, settings){

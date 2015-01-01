@@ -1,6 +1,6 @@
 <?php
 /* Add you're own email address here!*/
-define("WEBMASTER_EMAIL", 'shane@shanemiltonphotography.com');
+define("WEBMASTER_EMAIL", 'name@email.com');
 error_reporting (E_ALL ^ E_NOTICE);
   $name = stripslashes($_POST['name']);
   $email = trim($_POST['email']);
