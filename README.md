@@ -11,7 +11,7 @@ For example
 ```
 ==============
 
-The best way to know whate to type in place of the include's is to look at one of you're other lens files and copy the includes from one of them into this contact.lens.
+The best way to know what to type in place of the include's is to look at one of you're other lens files and copy the includes from one of them into this contact.lens.
 
 ==============
 <h2>Where to put the files</h2>
