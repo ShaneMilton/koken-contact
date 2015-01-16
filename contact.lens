@@ -5,8 +5,8 @@
   <article>
   <header><h1>Contact</h1></header>
 	<p>You can contact us at</p>
-	<p>Phone: (720)255-4244</p>
-	<p>Email: shane@shanemiltonphotography.com</p>
+	<p>Phone: (555)555-5555</p>
+	<p>Email: name@email.com</p>
 	<p><h2>Or fill out the form below</h2></p>
     <form id="ajax-contact-form" action="javascript:alert('success!');" role="form" class="form-horizontal">
       <fieldset>
